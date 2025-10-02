@@ -1,0 +1,96 @@
+
+.header {
+    position: relative;
+}
+
+.main-nav {
+    height: 7rem;
+    width: 100%;
+
+    padding: 0 3.2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nav Bar */
+
+.fa-bars:before, .fa-navicon:before {
+    color: #fafafa;
+    font-size: 2.4rem;
+    content: "" !important;
+    display: none;
+}
+
+/* Logo setup */
+
+.div-nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.link-logo {
+    text-decoration: none;
+}
+
+.h1-logo {
+    color: #fafafa;
+    font-size: 2.2rem;
+}
+
+/* Main Nav setup */
+
+.nav-links {
+    list-style: none;
+
+    display: flex;
+    gap: 3.2rem;
+}
+
+.nav-links li a:link,
+.nav-links li a:visited {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 1.1rem;
+}
+
+.nav-links li a:hover,
+.nav-links li a:active {
+    color: #609965;
+}
+
+/* Login and Register Setup */
+
+.nav-user-links {
+    list-style: none;
+
+    display: flex;
+    gap: 1.8rem;
+}
+
+.nav-user-links li a:link,
+.nav-user-links li a:visited {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.link-sgin-up {
+    background: linear-gradient(90deg, #2a6cff, #64e86c);
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #fafafa;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-user-links li a:hover,
+.nav-user-links li a:active {
+    opacity: 0.8;
+}
+
+

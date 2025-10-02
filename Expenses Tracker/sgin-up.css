@@ -1,0 +1,233 @@
+
+.section-sgin-up {
+    position: relative;
+
+    height: auto;
+    width: 100%;
+
+    margin-top: 3.2rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* Box Section */
+
+.div-sgin-up-box {
+    height: 60rem;
+    width: 60rem;
+
+    margin: 0 3.2rem;
+
+    border-radius: 12px;
+    background: #FAFAFA;
+    backdrop-filter: blur(10px); /* Blur Effect */
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle Border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft Shadow */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text Section */
+
+.sgin-up-form {
+    padding: 0 3.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.h3-sgin-up-text {
+    text-align: center;
+    font-size: 3.6rem;
+    padding-bottom: 1.4rem !important;
+}
+
+.p-social-sgin-up {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 2.8rem;
+}
+
+/* Social Section */
+
+.div-social-sgin-up {
+    padding: 0 3.2rem;
+    padding-bottom: 2.8rem !important;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.div-google-sgin-up {
+    background-color: black;
+    color: #FAFAFA;
+
+    height: 4.2rem;
+    width: 15rem;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.div-google-sgin-up:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.div-apple-sgin-up {
+    background-color: black;
+    color: #FAFAFA;
+
+    height: 4.2rem;
+    width: 15rem;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.div-apple-sgin-up:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.div-discord-sgin-up {
+    background-color: black;
+    color: #FAFAFA;
+
+    height: 4.2rem;
+    width: 15rem;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.div-discord-sgin-up:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Form Input Section */
+
+.div-input-username {
+    padding-bottom: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.div-input-username label {
+    font-size: 1.4rem;
+    padding-bottom: 0.8rem;
+}
+
+.div-input-username input {
+    height: 3.2rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.div-input-email {
+    padding-bottom: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.div-input-email label {
+    font-size: 1.4rem;
+    padding-bottom: 0.8rem;
+}
+
+.div-input-email input {
+    height: 3.2rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.div-input-password {
+    padding-bottom: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.div-input-password label {
+    font-size: 1.4rem;
+    padding-bottom: 0.8rem;
+}
+
+.div-input-password input {
+    height: 3.2rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.div-flex-sgin-up-checkbox-forget-password {
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 1.8rem;
+}
+
+.div-checkbox-saving {
+    padding-bottom: 1.2rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sgin-up-button-form {
+    height: 4rem;
+    width: 95%;
+
+    margin: 0 auto;
+    margin-bottom: 0.8rem;
+
+    color: #FAFAFA;
+    background-color: #131313;
+
+    border: 1px solid #FAFAFA;
+    border-radius: 25px;
+
+    cursor: pointer;
+}
+
+.sgin-up-button-form:hover {
+    opacity: 0.95;
+}
+
+.link-create-account-sgin-up {
+    text-decoration: none;
+
+    height: 4rem;
+    width: 95%;
+    font-size: 1.4rem;
+
+    margin: 0 auto;
+
+    color: #131313;
+    background-color: #FAFAFA;
+
+    border: 1px solid #131313;
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
